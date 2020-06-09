@@ -1,0 +1,95 @@
+table {
+	width: 75%;
+	height: 50px;
+	margin: auto;
+	padding: 0;
+}
+
+table tr:first-child{
+	background: #BEBEBE;
+	text-align: center;
+}
+
+h1 {
+	margin: 0.3em 0;
+}
+
+span {
+	font-style: italic;
+}
+
+td#left {
+	width: 50%;
+	padding-left:25%;
+}
+
+.GObj {
+	vertical-align: bottom;
+}
+
+#left_item {
+	padding-left: 25%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.history, .year {
+	font-weight: bold;
+}
+
+#center {
+	text-align: center;
+}
+
+td {
+	padding: 0;
+}
+
+.items {
+	vertical-align: top;
+	border: 1px solid silver;
+}
+
+.Dates {
+	border: 1px solid silver;
+	padding: 2px;
+}
+
+.Dates td {
+	background: white;
+}
+
+.container {
+	display: flex;
+	text-align: center;
+}
+
+.timer {
+	text-align: center;
+	width: 300px;
+	margin: 0,5%;
+}
+
+.item {
+	width: 25%;
+	padding-top: 0em;
+	padding-bottom: 0em; 
+}
+
+.timer p {
+	margin: 0.2em 0;
+	font-size: 14pt;
+	letter-spacing: 0.02em;
+}
+
+.num {
+	font-weight: bold;
+}
+
+form input {
+	border: 1px solid silver;
+	display: block;
+	padding: 10px;
+	margin: auto  auto 1em auto;
+	text-align: center;
+}
